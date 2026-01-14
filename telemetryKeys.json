@@ -1,0 +1,123 @@
+{
+    "OVERVIEW": {
+        "cards": {
+            "Lifetime Energy": {
+                "keys": [
+                    "PlantLifetimeEnergy"
+                ]
+            },
+            "Inverter Voltage": {
+                "keys": [
+                    "Plants_Inverter_MPPTS1DCVoltage"
+                ]
+            },
+            "Inverter Energy & Power": {
+                "keys": [
+                    "Plants_Inverter_MPPTS1Energy",
+                    "Plants_Inverter_MPPTS1DCPower"
+                ]
+            }
+        },
+        "charts": {
+            "Power": {
+                "type": "line",
+                "colors": [
+                    "red",
+                    "orange",
+                    "blue",
+                    "yellow"
+                ],
+                "keys": [
+                    "MPPTS2_Power_Ch1",
+                    "MPPTS2_Power_Ch2",
+                    "MPPTS2_Power_Ch3",
+                    "MPPTS2_Power_Ch4"
+                ]
+            },
+            "Plant Lifetime Energy": {
+                "type": "line",
+                "colors": [
+                    "green"
+                ],
+                "keys": [
+                    "PlantLifetimeEnergy"
+                ]
+            },
+            "Inverter DC Voltage": {
+                "type": "area",
+                "colors": [
+                    "red"
+                ],
+                "keys": [
+                    "Plants_Inverter_MPPTS1DCVoltage"
+                ]
+            }
+        }
+    },
+    "LOAD": {
+        "cards": {
+            "Current": {
+                "keys": [
+                    "MPPTS1_Current_Ch1",
+                    "MPPTS1_Current_Ch2",
+                    "MPPTS1_Current_Ch3",
+                    "MPPTS1_Current_Ch4"
+                ]
+            }
+        },
+        "charts": {
+            "Current 1 & 2": {
+                "type": "line",
+                "colors": [
+                    "red",
+                    "orange",
+                    "blue",
+                    "yellow"
+                ],
+                "keys": [
+                    "MPPTS1_Current_Ch1",
+                    "MPPTS1_Current_Ch2"
+                ]
+            },
+            "Current 3 & 4": {
+                "type": "bar",
+                "colors": [
+                    "blue",
+                    "yellow"
+                ],
+                "keys": [
+                    "MPPTS1_Current_Ch3",
+                    "MPPTS1_Current_Ch4"
+                ]
+            }
+        }
+    },
+    "DG": {},
+    "INVERTER": {
+        "cards": {
+            "Inverter Voltage": {
+                "keys": [
+                    "Plants_Inverter_MPPTS1DCVoltage"
+                ]
+            },
+            "Inverter Energy & Power": {
+                "keys": [
+                    "Plants_Inverter_MPPTS1Energy",
+                    "Plants_Inverter_MPPTS1DCPower"
+                ]
+            }
+        },
+        "charts": {
+            "Inverter DC Voltage": {
+                "type": "area",
+                "colors": [
+                    "red"
+                ],
+                "keys": [
+                    "Plants_Inverter_MPPTS1DCVoltage"
+                ]
+            }
+        }
+    },
+    "UPS": {}
+}
