@@ -1,0 +1,7 @@
+# Ignore config files/folders
+config
+config/
+
+# Ignore telemetry keys
+telemetryKeys
+telemetryKeys/
